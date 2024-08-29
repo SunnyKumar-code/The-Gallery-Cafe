@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/bf72cd22738523.5631791c3b5d0.gif) ;
+    background-size: cover; /* Make sure the background image covers the entire screen */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the background image */
+    height: 100vh; /* Ensure the body height is 100% of the viewport height */
+    background-attachment: fixed; /* Keeps the image fixed on scroll */
+}
+h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+a{
+    color: #dbcfcf;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #392e2e;
+    color: #fff;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center; 
+    opacity: 50%;
+}
+.summary{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #392e2e;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;  
+    border: none; 
+}
+
+
+
+
+
+table {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 90%;
+    margin: 20px 5%  ;
+    background-color: rgba(93, 79, 36, 0.626); /* Semi-transparent blue background */
+    color: #fff; /* White text for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    border-radius: 10px;
+    
+
+}
+
+th, td {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border with transparency */
+}
+
+th {
+    background-color: rgba(143, 105, 65, 0.744); /* Darker blue for table headers */
+    text-align: center;
+    font-size: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(91, 72, 32, 0.5); /* Slightly different shade for even rows */
+}
+
+tr:hover {
+    background-color: rgba(110, 68, 44, 0.7); /* Darken the row on hover */
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 90%;
+    }
+}
